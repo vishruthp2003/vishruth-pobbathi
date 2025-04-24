@@ -80,9 +80,6 @@ const Projects = () => {
               My <span className="bg-clip-text text-transparent bg-gradient-to-r from-magenta to-violet">Projects</span>
             </h1>
             <div className="w-24 h-1 bg-gradient-to-r from-magenta to-violet mx-auto rounded-full"></div>
-            <p className="text-white/70 mt-4 max-w-2xl mx-auto">
-              A showcase of my data science, machine learning, and AI development work
-            </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
