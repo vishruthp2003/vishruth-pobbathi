@@ -21,7 +21,7 @@ const projects = [
     description: 'A personal portfolio website that showcase my education, projects, skills, certifications and achievements.',
     image: '/lovable-uploads/portfolioImage.png',
     technologies:  ['Vite','HTML', 'TailwindCSS', 'TypeScript', 'React'],
-    demoUrl: 'https://my-portfolio-website-7ybj-512jvj2fn-vishruthp2003s-projects.vercel.app/',
+    demoUrl: 'https://my-new-portfolio-website-nmg78wmzf-vishruthp2003s-projects.vercel.app/',
     githubUrl: 'https://github.com/vishruthp2003/My-portfolio-website',
     hasDemoLink: true,
   },
