@@ -9,6 +9,7 @@ import ExperienceSection from "../components/Sections/ExperienceSection";
 import EducationSection from "../components/Sections/EducationSection";
 import ContactSection from "../components/Sections/ContactSection";
 import AwardsSection from "../components/Sections/AwardsSection";
+import CertificationsSection from "../components/Sections/CertificationsSection";
 import { ArrowUp } from "lucide-react";
 import { Tooltip, TooltipProvider, TooltipTrigger, TooltipContent } from "../components/ui/tooltip";
 
@@ -70,15 +71,17 @@ const Index = () => {
       <Navbar />
       
       <main>
-        <HeroSection />
-        <AboutSection />
-        <SkillsSection />
-        <ProjectsSection />
-        <ExperienceSection />
-        <EducationSection />
-        <AwardsSection />
-        <ContactSection />
-      </main>
+  <HeroSection />
+  <AboutSection />
+  <SkillsSection />
+  <ProjectsSection />
+  <ExperienceSection />
+  <EducationSection />
+  <CertificationsSection /> {/* <-- Add it here */}
+  <AwardsSection />
+  <ContactSection />
+</main>
+
 
       {/* Bouncing Back to Top Button (fixed position, bottom right) */}
       <TooltipProvider>
